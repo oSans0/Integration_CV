@@ -92,22 +92,22 @@ html {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  transition: border-radius 0.3s ease; /* Ajoute une transition douce */
+  transition: border-radius 0.3s ease; 
 }
 .avatar:hover {
-  border-radius: 50%; /* Transforme en rond au survol */
+  border-radius: 50%; 
 }
 
 .avatar img {
   max-width: 100%;
   max-height: 100%;
-  filter: grayscale(100%); /* Applique le filtre gris */
-  transition: border-radius 0.3s ease, filter 0.3s ease; /* Transition douce pour la forme et le filtre */
-  border-radius: 0; /* Forme de base */
+  filter: grayscale(100%); 
+  transition: border-radius 0.3s ease, filter 0.3s ease;
+  border-radius: 0; 
 }
 .avatar img:hover {
-  border-radius: 50%; /* L'image devient ronde au survol */
-  filter: grayscale(0%); /* Supprime le filtre gris au survol */
+  border-radius: 50%; 
+  filter: grayscale(0%); 
 }
 
 footer a:not(.nav-link) {
